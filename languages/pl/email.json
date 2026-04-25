@@ -1,0 +1,18 @@
+{
+	"account-retention.warning.subject": "[%1] Twoje konto zostanie usunięte za %2 dni",
+	"account-retention.warning.intro": "Jesteś zarejestrowany na %1, ale nie zalogowałeś się od %2 dni.",
+	"account-retention.warning.action": "Zgodnie z naszą polityką prywatności konta nieaktywne są automatycznie usuwane. Jeśli nic nie zrobisz, Twoje konto zostanie skasowane za %1 dni.",
+	"account-retention.warning.alt": "Aby zachować konto, kliknij przycisk powyżej lub po prostu zaloguj się na %1.",
+
+	"account-retention.final-warning.subject": "[%1] OSTATNIE OSTRZEŻENIE — usunięcie konta za %2 dni",
+	"account-retention.final-warning.intro": "To ostatnie przypomnienie z %1 — Twoje konto zostanie usunięte za %2 dni.",
+	"account-retention.final-warning.body": "Konto pozostaje nieaktywne od %1 dni. Po usunięciu nie będziemy w stanie go odtworzyć.",
+	"account-retention.final-warning.alt": "Kliknij przycisk powyżej lub zaloguj się na %1, by zachować konto.",
+
+	"account-retention.deleted.subject": "[%1] Twoje konto zostało usunięte",
+	"account-retention.deleted.intro": "Twoje konto na %1 zostało usunięte z powodu nieaktywności (ostatnia aktywność: %2 dni temu).",
+	"account-retention.deleted.body": "Posty pozostają w archiwum forum, ale nie są już powiązane z Twoim profilem. Jeśli chcesz wrócić, możesz utworzyć nowe konto w dowolnym momencie.",
+
+	"account-retention.button.keepalive": "Zachowaj moje konto",
+	"account-retention.footer.legal": "Otrzymujesz tę wiadomość ponieważ posiadasz konto na naszym forum. Wiadomość jest wysyłana automatycznie w związku z naszą polityką retencji danych osobowych."
+}

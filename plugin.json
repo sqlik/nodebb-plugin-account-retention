@@ -1,0 +1,18 @@
+{
+  "id": "nodebb-plugin-account-retention",
+  "name": "Account Retention",
+  "description": "GDPR-friendly inactive account deletion: configurable inactivity threshold, escalating warning emails, one-click keep-alive links, audit log and dry-run mode.",
+  "url": "https://github.com/sqlik/nodebb-plugin-account-retention",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:admin.header.build", "method": "addAdminMenu" },
+    { "hook": "filter:email.modifyList", "method": "registerEmailTypes" },
+    { "hook": "action:user.online", "method": "onUserOnline" }
+  ],
+  "templates": "public/templates",
+  "languages": "languages",
+  "modules": {
+    "../admin/plugins/account-retention.js": "./public/lib/admin.js"
+  }
+}

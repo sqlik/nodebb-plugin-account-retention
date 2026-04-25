@@ -1,0 +1,68 @@
+{
+	"title": "Account Retention",
+	"subtitle": "GDPR-friendly automatic deletion of inactive accounts. Configure thresholds and exemptions below.",
+
+	"tab.general": "General",
+	"tab.policy": "Policy",
+	"tab.exemptions": "Exemptions",
+	"tab.pending": "Pending",
+	"tab.audit": "Audit log",
+
+	"section.general": "Main settings",
+	"section.policy": "Retention policy",
+	"section.exemptions": "Exemptions",
+	"section.pending": "Users pending action",
+	"section.audit": "Audit log",
+
+	"general.notice": "Keep \"Dry-run\" enabled during initial setup. In dry-run the plugin counts and logs but does not send emails (unless you enable it separately) and does not delete accounts.",
+
+	"field.enabled": "Enable plugin",
+	"field.enabled.help": "Disabling stops the cron. Scheduled actions will not be performed.",
+	"field.dryRun": "Dry-run mode",
+	"field.dryRun.help": "Runs the full pipeline without deleting accounts. Audit records what WOULD happen. Recommended for first runs.",
+	"field.emailsEnabledInDryRun": "Send emails in dry-run mode",
+	"field.emailsEnabledInDryRun.help": "Off by default. Enable only when you want to test templates against real addresses.",
+	"field.cronHour": "Daily scan hour (UTC)",
+	"field.cronHour.help": "UTC hour at which the daily scan runs. Default 03:00 UTC.",
+
+	"field.inactivityDays": "Inactivity threshold (days)",
+	"field.inactivityDays.help": "Account is deleted after this many days without login. Default 365.",
+	"field.warningDays": "Warning days before deletion (comma-separated)",
+	"field.warningDays.help": "E.g. \"30,7\" = send warnings 30 and 7 days before deletion. Smallest value becomes the \"final warning\".",
+	"field.keepaliveTokenTtlDays": "Keep-alive link TTL (days)",
+	"field.keepaliveTokenTtlDays.help": "How long the keep-alive token in the email stays valid. Should be ≥ the largest warning day.",
+	"field.gracePeriodDaysAfterInstall": "Grace period after install (days)",
+	"field.gracePeriodDaysAfterInstall.help": "Safety net: for the first N days after install no destructive actions run. Default 14.",
+	"field.auditRetentionDays": "Audit log retention (days)",
+	"field.auditRetentionDays.help": "How long to keep audit entries. Suggested ≥ 365 for GDPR evidence. Default 1095 (3 years).",
+
+	"field.exemptGroups": "Groups exempted from retention",
+	"field.exemptGroups.help": "Comma-separated group names. Defaults to administrators and global moderators.",
+	"field.exemptUids": "UIDs exempted from retention",
+	"field.exemptUids.help": "Comma-separated UIDs. Service accounts, bots, backup accounts.",
+	"field.includeBanned": "Also delete banned users",
+	"field.includeBanned.help": "Default yes — from a GDPR standpoint a banned account is still inactive. Disable if you want to keep the ban as a permanent record.",
+	"field.includeNeverLoggedIn": "Delete accounts that never logged in",
+	"field.includeNeverLoggedIn.help": "Counted from registration date when no login exists.",
+
+	"pending.preview": "Refresh list",
+	"pending.runNow": "Run scan now",
+	"pending.notice": "List of users that would be touched on the next run. This is a preview — nothing happens here automatically.",
+
+	"audit.refresh": "Refresh",
+
+	"col.username": "Username",
+	"col.daysInactive": "Days inactive",
+	"col.action": "Action",
+	"col.daysUntilDelete": "Days until delete",
+	"col.when": "When",
+	"col.days": "Days",
+	"col.dryRun": "Dry",
+	"col.error": "Error",
+
+	"save.header": "Save",
+	"save.button": "Save settings",
+	"save.help": "Saving immediately reloads the plugin configuration.",
+
+	"saved": "Settings saved"
+}

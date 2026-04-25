@@ -1,0 +1,18 @@
+{
+	"account-retention.warning.subject": "[%1] Your account will be deleted in %2 days",
+	"account-retention.warning.intro": "You have an account on %1, but you have not logged in for %2 days.",
+	"account-retention.warning.action": "Per our privacy policy, inactive accounts are automatically deleted. If you do nothing, your account will be removed in %1 days.",
+	"account-retention.warning.alt": "To keep your account, click the button above or simply log in to %1.",
+
+	"account-retention.final-warning.subject": "[%1] FINAL NOTICE — account deletion in %2 days",
+	"account-retention.final-warning.intro": "This is the last reminder from %1 — your account will be deleted in %2 days.",
+	"account-retention.final-warning.body": "Your account has been inactive for %1 days. Once deleted, we will not be able to restore it.",
+	"account-retention.final-warning.alt": "Click the button above or log in to %1 to keep your account.",
+
+	"account-retention.deleted.subject": "[%1] Your account has been deleted",
+	"account-retention.deleted.intro": "Your account on %1 has been deleted due to inactivity (last active %2 days ago).",
+	"account-retention.deleted.body": "Your posts remain in the forum archive but are no longer linked to your profile. You are welcome to create a new account at any time.",
+
+	"account-retention.button.keepalive": "Keep my account",
+	"account-retention.footer.legal": "You are receiving this message because you have an account on our forum. It is sent automatically as part of our data retention policy."
+}

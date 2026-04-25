@@ -1,0 +1,68 @@
+{
+	"title": "Retencja kont",
+	"subtitle": "Automatyczne usuwanie nieaktywnych kont zgodnie z RODO. Skonfiguruj progi i wyjątki poniżej.",
+
+	"tab.general": "Ogólne",
+	"tab.policy": "Polityka",
+	"tab.exemptions": "Wyjątki",
+	"tab.pending": "Oczekujące",
+	"tab.audit": "Dziennik",
+
+	"section.general": "Ustawienia główne",
+	"section.policy": "Polityka retencji",
+	"section.exemptions": "Wyjątki",
+	"section.pending": "Użytkownicy oczekujący na akcję",
+	"section.audit": "Dziennik audytowy",
+
+	"general.notice": "Zostaw \"Tryb testowy\" włączony przy pierwszej konfiguracji. W trybie testowym wtyczka liczy i loguje, ale nie wysyła e-maili (chyba że włączysz to osobno) i nie usuwa kont.",
+
+	"field.enabled": "Włącz wtyczkę",
+	"field.enabled.help": "Wyłączenie zatrzymuje cron. Zaplanowane akcje nie będą wykonywane.",
+	"field.dryRun": "Tryb testowy (dry-run)",
+	"field.dryRun.help": "Wykonuje pełen przebieg bez usuwania kont. Audyt rejestruje co BY się stało. Zalecane przy pierwszych uruchomieniach.",
+	"field.emailsEnabledInDryRun": "Wysyłaj e-maile w trybie testowym",
+	"field.emailsEnabledInDryRun.help": "Domyślnie wyłączone. Włącz tylko gdy chcesz przetestować szablony na realnych adresach.",
+	"field.cronHour": "Godzina codziennego skanu (UTC)",
+	"field.cronHour.help": "Godzina UTC, o której uruchamia się dzienny skan. Domyślnie 03:00 UTC = 04:00/05:00 polskiego czasu.",
+
+	"field.inactivityDays": "Próg nieaktywności (dni)",
+	"field.inactivityDays.help": "Po tylu dniach bez logowania konto zostanie usunięte. Domyślnie 365.",
+	"field.warningDays": "Dni ostrzeżeń przed usunięciem (oddzielone przecinkami)",
+	"field.warningDays.help": "Np. \"30,7\" = wyślij ostrzeżenie 30 dni i 7 dni przed usunięciem. Najmniejsza wartość staje się \"ostatnim ostrzeżeniem\".",
+	"field.keepaliveTokenTtlDays": "Ważność linku \"zostaję\" w mailu (dni)",
+	"field.keepaliveTokenTtlDays.help": "Po jakim czasie wygasa token z maila. Powinien być ≥ największej wartości w polu wyżej.",
+	"field.gracePeriodDaysAfterInstall": "Okres karencji po instalacji (dni)",
+	"field.gracePeriodDaysAfterInstall.help": "Bezpieczeństwo: pierwsze N dni po instalacji wtyczka nie wykonuje destrukcyjnych akcji. Domyślnie 14.",
+	"field.auditRetentionDays": "Retencja logu audytu (dni)",
+	"field.auditRetentionDays.help": "Jak długo trzymać wpisy audytu. Sugerowane ≥ 365 dla celów dowodowych RODO. Domyślnie 1095 (3 lata).",
+
+	"field.exemptGroups": "Grupy zwolnione z retencji",
+	"field.exemptGroups.help": "Lista nazw grup oddzielona przecinkami. Domyślnie administratorzy i moderatorzy globalni.",
+	"field.exemptUids": "UID-y zwolnione z retencji",
+	"field.exemptUids.help": "Lista UID oddzielona przecinkami. Konta serwisowe, boty, konta zapasowe.",
+	"field.includeBanned": "Usuwaj również użytkowników zbanowanych",
+	"field.includeBanned.help": "Domyślnie tak — z punktu widzenia RODO konto zbanowane też jest \"nieaktywne\". Wyłącz jeśli chcesz zachować bana jako stały zapis.",
+	"field.includeNeverLoggedIn": "Usuwaj konta które nigdy się nie zalogowały",
+	"field.includeNeverLoggedIn.help": "Liczone od daty rejestracji jeśli brak logowania.",
+
+	"pending.preview": "Odśwież listę",
+	"pending.runNow": "Uruchom skan teraz",
+	"pending.notice": "Lista użytkowników których dotknęłaby akcja przy następnym przebiegu. To podgląd — nic się tu nie wydarzy automatycznie.",
+
+	"audit.refresh": "Odśwież",
+
+	"col.username": "Nazwa",
+	"col.daysInactive": "Dni nieaktywności",
+	"col.action": "Akcja",
+	"col.daysUntilDelete": "Dni do usunięcia",
+	"col.when": "Kiedy",
+	"col.days": "Dni",
+	"col.dryRun": "Test",
+	"col.error": "Błąd",
+
+	"save.header": "Zapis",
+	"save.button": "Zapisz ustawienia",
+	"save.help": "Zapisanie ustawień natychmiast przeładowuje konfigurację wtyczki.",
+
+	"saved": "Ustawienia zapisane"
+}

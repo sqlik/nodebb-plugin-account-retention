@@ -1,0 +1,46 @@
+{
+  "name": "nodebb-plugin-account-retention",
+  "version": "0.1.0",
+  "description": "GDPR-friendly inactive account retention for NodeBB. Configurable inactivity threshold, escalating warning emails, audit log, dry-run mode and one-click keep-alive links. Native deleteAccount preserves posts as guest content.",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqlik/nodebb-plugin-account-retention.git"
+  },
+  "keywords": [
+    "nodebb",
+    "nodebb-plugin",
+    "gdpr",
+    "retention",
+    "inactive-accounts",
+    "data-protection",
+    "privacy"
+  ],
+  "author": "djayt <tomasz.sawko@sqlik.com> (https://www.npmjs.com/~djayt)",
+  "license": "MIT",
+  "homepage": "https://github.com/sqlik/nodebb-plugin-account-retention#readme",
+  "bugs": {
+    "url": "https://github.com/sqlik/nodebb-plugin-account-retention/issues"
+  },
+  "files": [
+    "lib/",
+    "public/lib/",
+    "public/templates/",
+    "languages/",
+    "library.js",
+    "plugin.json",
+    "LICENSE",
+    "README.md",
+    "!**/CLAUDE.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "nbbpm": {
+    "compatibility": "^3.0.0 || ^4.0.0"
+  }
+}
