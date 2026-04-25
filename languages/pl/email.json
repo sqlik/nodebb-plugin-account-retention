@@ -1,4 +1,6 @@
 {
+	"account-retention.greeting": "Cześć %1,",
+
 	"account-retention.warning.subject": "[%1] Twoje konto zostanie usunięte za %2 dni",
 	"account-retention.warning.intro": "Jesteś zarejestrowany na %1, ale nie zalogowałeś się od %2 dni.",
 	"account-retention.warning.action": "Zgodnie z naszą polityką prywatności konta nieaktywne są automatycznie usuwane. Jeśli nic nie zrobisz, Twoje konto zostanie skasowane za %1 dni.",
@@ -10,7 +12,8 @@
 	"account-retention.final-warning.alt": "Kliknij przycisk powyżej lub zaloguj się na %1, by zachować konto.",
 
 	"account-retention.deleted.subject": "[%1] Twoje konto zostało usunięte",
-	"account-retention.deleted.intro": "Twoje konto na %1 zostało usunięte z powodu nieaktywności (ostatnia aktywność: %2 dni temu).",
+	"account-retention.deleted.intro": "Twoje konto na %1 zostało usunięte z powodu długiego okresu nieaktywności.",
+	"account-retention.deleted.intro-with-days": "Twoje konto na %1 zostało usunięte z powodu nieaktywności (ostatnia aktywność: %2 dni temu).",
 	"account-retention.deleted.body": "Posty pozostają w archiwum forum, ale nie są już powiązane z Twoim profilem. Jeśli chcesz wrócić, możesz utworzyć nowe konto w dowolnym momencie.",
 
 	"account-retention.button.keepalive": "Zachowaj moje konto",

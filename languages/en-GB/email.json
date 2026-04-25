@@ -1,4 +1,6 @@
 {
+	"account-retention.greeting": "Hi %1,",
+
 	"account-retention.warning.subject": "[%1] Your account will be deleted in %2 days",
 	"account-retention.warning.intro": "You have an account on %1, but you have not logged in for %2 days.",
 	"account-retention.warning.action": "Per our privacy policy, inactive accounts are automatically deleted. If you do nothing, your account will be removed in %1 days.",
@@ -10,7 +12,8 @@
 	"account-retention.final-warning.alt": "Click the button above or log in to %1 to keep your account.",
 
 	"account-retention.deleted.subject": "[%1] Your account has been deleted",
-	"account-retention.deleted.intro": "Your account on %1 has been deleted due to inactivity (last active %2 days ago).",
+	"account-retention.deleted.intro": "Your account on %1 has been deleted due to a long period of inactivity.",
+	"account-retention.deleted.intro-with-days": "Your account on %1 has been deleted due to inactivity (last active %2 days ago).",
 	"account-retention.deleted.body": "Your posts remain in the forum archive but are no longer linked to your profile. You are welcome to create a new account at any time.",
 
 	"account-retention.button.keepalive": "Keep my account",
