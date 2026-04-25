@@ -1,6 +1,4 @@
 {
-	"account-retention.greeting": "Hi %1,",
-
 	"account-retention.warning.subject": "[%1] Your account will be deleted in %2 days",
 	"account-retention.warning.intro": "You have an account on %1, but you have not logged in for %2 days.",
 	"account-retention.warning.action": "Per our privacy policy, inactive accounts are automatically deleted. If you do nothing, your account will be removed in %1 days.",

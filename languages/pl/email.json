@@ -1,6 +1,4 @@
 {
-	"account-retention.greeting": "Cześć %1,",
-
 	"account-retention.warning.subject": "[%1] Twoje konto zostanie usunięte za %2 dni",
 	"account-retention.warning.intro": "Jesteś zarejestrowany na %1, ale nie zalogowałeś się od %2 dni.",
 	"account-retention.warning.action": "Zgodnie z naszą polityką prywatności konta nieaktywne są automatycznie usuwane. Jeśli nic nie zrobisz, Twoje konto zostanie skasowane za %1 dni.",
