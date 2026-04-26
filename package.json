@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-account-retention",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "GDPR-friendly inactive account retention for NodeBB. Configurable inactivity threshold, escalating warning emails, audit log, dry-run mode and one-click keep-alive links. Native deleteAccount preserves posts as guest content.",
   "main": "library.js",
   "scripts": {
