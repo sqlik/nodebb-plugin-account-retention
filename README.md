@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-sqlik-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/sqlik)
-[![npm version](https://img.shields.io/npm/v/nodebb-plugin-account-retention.svg)](https://www.npmjs.com/package/nodebb-plugin-account-retention)
-[![npm downloads](https://img.shields.io/npm/dm/nodebb-plugin-account-retention.svg)](https://www.npmjs.com/package/nodebb-plugin-account-retention)
 
 GDPR-friendly inactive account retention for NodeBB. Automatically deletes user accounts that have been inactive (no login) for a configurable period — default **365 days**. Posts and topics stay in the archive (NodeBB's native `User.deleteAccount` reassigns content to a guest placeholder); only the user record and personal data are removed.
 
